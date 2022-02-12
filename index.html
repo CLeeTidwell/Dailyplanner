@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Boostrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- Icon styling Link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <!-- Font styling Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+     <!--Style Sheet Link-->
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <title>Daily Planner</title>
+  </head>
+    <!--This is the header of the page-->
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">A 9-5 Daily Planner</h1>
+      <p id="currentDay" class="lead"></p>
+      <p class="range">9am - 5pm</p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks - 9am-5pm -->
+      <!-- 9 AM -->
+      <div class="row time-block" id="9">
+        <div class="col-1 hour pt-2">9AM</div>
+        <textarea class="col-10 data"></textarea>
+        <!--This is the save icon, linked above from fontawesome-->
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 10 AM -->
+      <div class="row time-block" id="10">
+        <div class="col-1 hour pt-2">10AM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 11 AM -->
+      <div class="row time-block" id="11">
+        <div class="col-1 hour pt-2">11AM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 12 PM -->
+      <div class="row time-block" id="12">
+        <div class="col-1 hour pt-2" value="12PM">12PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 1 PM -->
+      <div class="row time-block" id="13">
+        <div class="col-1 hour pt-2">1PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 2 PM -->
+      <div class="row time-block" id="14">
+        <div class="col-1 hour pt-2">2PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 3 PM -->
+      <div class="row time-block" id="15">
+        <div class="col-1 hour pt-2">3PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 4 PM -->
+      <div class="row time-block" id="16">
+        <div class="col-1 hour pt-2">4PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 5 PM -->
+      <div class="row time-block" id="17">
+        <div class="col-1 hour pt-2">5PM</div>
+        <textarea class="col-10 data"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+
+    <!-- Link to jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Link to moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--This is the link to the Javascript-->
+    <script src="./Assets/script.js"></script>
+  </body>
 </html>
