@@ -38,6 +38,7 @@ This project is created with:
 * Bootstrap
 
 ## Setup
-To run this project, please visit the url 
+To run this project, please visit the url https://cleetidwell.github.io/Dailyplanner/
 
 ## Sample images
+![screenshot](./Assets/DailyPlanner.gif)
