@@ -11,6 +11,7 @@ SO THAT I can manage my time effectively
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Sample images](#Sample-images)
+* [Contact](#Contact)
 
 ## General info
 ```md
@@ -44,3 +45,5 @@ To run this project, please visit the url https://cleetidwell.github.io/Dailypla
 ## Sample images
 ![screenshot](./Assets/DailyPlanner.gif)
 
+## Contact
+Questions? Please contact me at https://github.com/CLeeTidwell
