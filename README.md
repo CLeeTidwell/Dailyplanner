@@ -37,6 +37,7 @@ This project is created with:
 * Javascript
 * Moment.js
 * Bootstrap
+* Jquery
 
 ## Setup
 To run this project, please visit the url https://cleetidwell.github.io/Dailyplanner/
